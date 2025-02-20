@@ -3,6 +3,7 @@
 `pading.sh` é um script em bash que realiza o download do código fonte de uma página web fornecida como parâmetro, e extrai os endereços IP associados aos domínios encontrados nos links presentes na página.
 
 ## Como funciona
+![Screenshot_39](https://github.com/user-attachments/assets/9765a3c0-2584-4c67-ad44-c9198a7b2318)
 
 1. O script usa o comando `wget` para baixar o código HTML da página fornecida.
 2. Utiliza `grep` e `cut` para filtrar os links presentes na página, extraindo os domínios.
